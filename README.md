@@ -1,6 +1,20 @@
-# GSoC 2020 with TensorFlow
+# GSoC 2020 with TensorFlow Model Garden
 
-//add short description here
+Log repository for work done during the Coding Period of GSoC 2020 with TensorFlow. My project mainly involves migrating TF1.x models to TF2.x and improving documentation. In addition, GitHub support for pull requests and issues will be used in order to create an FAQ document for users.
+
+Mentors:
+
+* [Jaeyoun Kim](https://github.com/jaeyounkim)
+
+* [Xavier Gibert](https://github.com/xavigibert)
+
+---
+
+## Attention OCR Migration
+
+---
+
+## Mobile Video Object Detection
 
 ---
 
@@ -12,7 +26,7 @@
 
 * TF1.x --> TF2.x migration guide
 
-* GCP tutorial guide **(Unlikely)**
+* GCP tutorial guide (Merge the existing document in the test-bed repository and the one in the CS231n repo)
 
 ---
 
