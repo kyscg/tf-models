@@ -16,7 +16,18 @@ Mentors:
 
 ## Mobile Video Object Detection
 
----
+**Task 1: Check all GitHub issues and PRs related to `lstm_object_detection` and summarize key issues and asks from the community.**
+
+Found most of the main issues on GitHub (closed by the bot due to inactivity + open issues) and also a few relevant StackOverFlow questions. Left out some redundant issues but noted their key asks. Next step is to review and prioritize main fixes. Key issues found were:
+1. Problems with creating tf-records high
+2. More documentation needed (specifically training related: prepping data, etc) high
+3. More support required
+
+**Task 2: Rerun model training/evaluation/inference from TensorFlow repo and fix potential issues. For both local and cloud.**
+
+We can fix most fo the issues once we make the code run and regress the model accuracy. As the next step, we can start to rerun models and reproduce the paper results. First focus is on this paper(model): https://arxiv.org/abs/1711.06368 , because once the infrastructure is ready, it would be easy to just retrain the other paper.
+
+Starting with [this config](https://github.com/tensorflow/models/blob/master/research/lstm_object_detection/configs/lstm_ssd_mobilenet_v1_imagenet.config) file. Let's see what the future holds!
 
 ## GitHub Issue Support
 
